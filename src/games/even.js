@@ -15,9 +15,8 @@ export default function game() {
     if ((numsave % 2 === 0 && quest === 'yes') || (numsave % 2 !==0  && quest === 'no')) {
       console.log('Correct!')
     };
-    else {
-      console.log(`${quest} is wrong answer;(. Correct answer was 'no'.\n Let's try again, ${userName}!`);
-	  return;
+    console.log(`${quest} is wrong answer;(. Correct answer was 'no'.\n Let's try again, ${userName}!`);
+    return;
 	}
 };
 	console.log(`Congratulations, ${userName}!`);
