@@ -5,19 +5,19 @@ export default () => {
 	const getQuestion = () => {
 		const getOperator = () => {
 			const randomValue = Math.ceil(Math.random() * 3);
-			let operator = '';
+			let mathOperator = '';
 
 			switch (randomValue) {
 				case 1: {
-					operator = '+';
+					mathOperator = '+';
 					break;
 				}
 				case 2: {
-					operator = '-';
+					mathOperator = '-';
 					break;
 				}
 				case 3: {
-					operator = '*';
+					mathOperator = '*';
 					break;
 				}
 				default: 
@@ -55,3 +55,5 @@ export default () => {
 
 			startGame(gameTerms, getQuestion, getCorrectAnswer);
 		};
+	}
+}
