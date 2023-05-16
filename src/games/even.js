@@ -1,24 +1,17 @@
-import readlineSync from 'readline-sync';
+import gameEngine from '../index.js';
+import getRandomInRange from '../getRandomInRange.js';
 
-function num() {
-  const number = (Math.round(Math.random() * 100));
-  return number;
-}
+const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-export default function game() {
-  const userName = readlineSync.question('May I have your name?');
-  console.log(`Hello, ${userName}!`);
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  for (let i = 0; i < 3; i += 1) {
-    const numsave = num();
-    const quest = readlineSync.question(`${'Question: '}${numsave}${'\nYour answer: '}`);
-    if ((numsave % 2 === 0 && quest === 'yes') || (numsave % 2 !==0  && quest === 'no')) {
-      console.log('Correct!')
-    };
-    console.log(`${quest} is wrong answer;(. Correct answer was 'no'.\n Let's try again, ${userName}!`);
-    return;
-	}
+const isEven = (checkNumber) => checkNumber % 2 === 0;
+
+const generateRound = () => {
+  const randomNumber = getRandomInRange(0, 10);
+  const answer = isEven(randomNumber) === true ? 'yes' : 'no';
+  const question = String(randomNumber);
+  return [question, answer];
 };
-	console.log(`Congratulations, ${userName}!`);
 
-}
+export default () => {
+  gameEngine(gameDescription, generateRound);
+};
