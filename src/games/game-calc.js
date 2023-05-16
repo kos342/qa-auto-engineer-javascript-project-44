@@ -1,4 +1,4 @@
-import startGame from '../index/js'
+import startGame from '../index.js'
 
 export default () => {
 	const gameTerms = 'What is the result of the expression?';
