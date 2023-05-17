@@ -8,3 +8,7 @@
 <h2>brain-calc</h2>
 
 [![asciicast](https://asciinema.org/a/mKQALucmixPQeVEk1j16gl33q.svg)](https://asciinema.org/a/mKQALucmixPQeVEk1j16gl33q)
+
+<h2>vrain-gcd</h2>
+
+[![asciicast](https://asciinema.org/a/XjiPjgWTVVbeIC0WWIJGmVSGn.svg)](https://asciinema.org/a/XjiPjgWTVVbeIC0WWIJGmVSGn)
