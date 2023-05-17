@@ -4,3 +4,7 @@
 <h2>brain-even</h2>
 
 [![asciicast](https://asciinema.org/a/x14zAsMyv9rwVQnyg92unA2x3.svg)](https://asciinema.org/a/x14zAsMyv9rwVQnyg92unA2x3)
+
+<h2>brain-calc</h2>
+
+[![asciicast](https://asciinema.org/a/mKQALucmixPQeVEk1j16gl33q.svg)](https://asciinema.org/a/mKQALucmixPQeVEk1j16gl33q)
