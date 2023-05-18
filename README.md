@@ -20,3 +20,8 @@
 <h3>What number is missing in the progression?</h3>
 
 [![asciicast](https://asciinema.org/a/qWOfE4DUN3ie1TTUSzmT8V0C5.svg)](https://asciinema.org/a/qWOfE4DUN3ie1TTUSzmT8V0C5)
+
+<h2>brain-prime</h2>
+<h3>Answer "yes" if given number is prime. Otherwise answer "no".</h3>
+
+[![asciicast](https://asciinema.org/a/vV2jXIcN7YE9l3FUAYSVQWsTC.svg)](https://asciinema.org/a/vV2jXIcN7YE9l3FUAYSVQWsTC)
