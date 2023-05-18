@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/kos342/qa-auto-engineer-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/kos342/qa-auto-engineer-javascript-project-44/actions)",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -13,7 +14,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kos342/qa-auto-engineer-javascript-project-44.git"
